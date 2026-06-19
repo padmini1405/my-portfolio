@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+
+/* Swiper Flex Alignment Fixes */
+.projects-swiper-wrapper .swiper {
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+.projects-swiper-wrapper .swiper-wrapper {
+  display: flex !important;
+  align-items: stretch !important; /* Force all swiper columns to stay matching height */
+}
+
+.projects-swiper-wrapper .custom-slide {
+  height: auto !important; /* Overrides style injection heights */
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+/* Swiper Flex Alignment Fixes */
+.projects-swiper-wrapper .swiper {
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+.projects-swiper-wrapper .swiper-wrapper {
+  display: flex !important;
+  align-items: stretch !important;
+}
+
+.projects-swiper-wrapper .custom-slide {
+  height: auto !important;
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+/* Custom styles for Swiper Pagination Dots */
+.custom-cert-swiper .swiper-pagination-bullet,
+.cert-custom-pagination .swiper-pagination-bullet {
+  background: rgba(255, 255, 255, 0.2) !important;
+  opacity: 1 !important;
+  width: 8px !important;
+  height: 8px !important;
+  margin: 0 5px !important;
+  display: inline-block !important;
+  border-radius: 50% !important;
+  transition: all 0.3s ease !important;
+}
+
+.custom-cert-swiper .swiper-pagination-bullet-active,
+.cert-custom-pagination .swiper-pagination-bullet-active {
+  background: #6366f1 !important;
+  width: 24px !important;
+  border-radius: 6px !important;
+}
+
+/* Eliminate Swiper default button injection rules if they leak */
+.cert-slider-container .swiper-button-next,
+.cert-slider-container .swiper-button-prev {
+  display: none !important;
+}
