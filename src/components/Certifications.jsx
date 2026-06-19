@@ -23,12 +23,12 @@ const certifications = [
   // },
   {
     title: "Prompt Engineering Certification",
-    provider: "AI & Generative AI Applications",
+    provider: "Error Makes Clever",
     image: promptImg,
   },
   {
     title: "3D-Webinar",
-    provider: "Design-Develop-Deploy Webinar",
+    provider: "Error Makes Clever",
     image: threeDImg,
   },
 ];
